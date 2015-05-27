@@ -1,1 +1,1 @@
-# LEO2
+# grunt-boilerplate
