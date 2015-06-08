@@ -1,2 +1,2 @@
-
+.flex-item{background-color:blue;margin:4px;position:relative;height:200px;width:100%;box-sizing:border-box}.hide-small{display:none}.iframe{height:100%}img{background-image:url("images/leo_piano.jpg");height:100%;width:100%;position:absolute}@media screen and (min-width: 880px){.flex-container{list-style:none;line-height:30px;display:box}.flex-item,.flex-item-wide{background:red;color:white;display:inline-block;font-weight:bold;font-size:1.5em;align-items:center;overflow:scroll}.flex-1-1{height:60px;width:60px}.flex-1-2{height:60px;width:132px}.flex-4-4{height:204px;width:204px}.flex-4-2{height:256px;width:256px}p{text-align:center}}@media screen and (min-width: 768px){.flex-item,.flex-item-wide{background:#ff0}}
 /*# sourceMappingURL=global.css.map */

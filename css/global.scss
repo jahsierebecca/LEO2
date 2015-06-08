@@ -1,0 +1,163 @@
+
+
+// .flex-container {
+
+
+// }
+
+// .flex-item, flex-item-wide; {
+//     background-color: red;
+//     margin: 5px;
+//     position: relative;
+//     height: 200px;
+// }
+
+// .hide-small {
+//     display: none;
+// }
+
+// .iframe {
+//     height: 100%;
+// }
+
+// img {
+//     background-image: url('../../../images/leo_piano.jpg');
+//     height: 100%;
+//     position: absolute;
+// }
+
+
+// @media screen and (min-width: 768px)  {
+
+//     .flex-container {
+//         padding: 0;
+//         margin: 0;
+//         list-style: none;
+//         display: flex;
+//         flex-flow: row wrap;
+//         justify-content: space-around;
+//         // flex-wrap: wrap;
+//         line-height:30px;
+//     }
+//     .flex-item, .flex-item-wide {
+//         // display: flex;
+//         background: tomato;
+//         color: white;
+//         font-weight: bold;
+//         margin: 5px;
+//         font-size: 1.5em;
+//         // text-align: center;
+//         flex: 1 0 10%;
+
+//         height:auto;
+//         align-items: center;
+//         overflow: scroll;
+//         // flex-wrap: wrap;
+//         // .flex-item {
+//         //     flex: 1 0 0;
+//         // }
+//         .flex-item-wide {
+//             flex: 2 0 20%;
+//         }
+//         p {
+//             text-align: center;
+//         }
+//     }
+//     .flex-item-wide:before {
+//         content:'';
+//         float:left;
+//         padding-top:50%;
+//     }
+//     .flex-item:before {
+//         content:'';
+//         float:left;
+//         padding-top:100%;
+//     }
+
+// }
+
+//Adaptive 
+
+
+.flex-container {
+
+
+}
+
+.flex-item {
+    background-color: blue;
+    margin: 4px;
+    position: relative;
+    height: 200px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.hide-small {
+    display: none;
+}
+
+.iframe {
+    height: 100%;
+}
+
+img {
+    background-image: url('images/leo_piano.jpg');
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+@media screen and (min-width: 880px)  {
+
+    .flex-container {
+        // padding: 0;
+        // margin: 0;
+        list-style: none;
+        line-height:30px;
+        display: box;
+    }
+    .flex-item, .flex-item-wide {
+        background: red;
+        color: white;
+        display: inline-block;
+        font-weight: bold;
+        font-size: 1.5em;
+        align-items: center;
+        overflow: scroll;
+    }
+    .flex-1-1 {
+        height: 60px;
+        width: 60px;
+    }
+    .flex-1-2 {
+        height: 60px;
+        //add 12 for margin
+        width: 132px;
+    }
+    .flex-4-4 {
+
+        //add 16 for margin
+        height: 204px;
+        width: 204px;
+    }
+    .flex-4-2 {
+        //add 16 for margin
+        height: 256px;
+        width: 256px;
+    }
+    p {
+        text-align: center;
+    }
+}
+
+@media screen and (min-width: 768px)  {
+
+    .flex-item, .flex-item-wide {
+        // display: flex;
+        background: yellow  ;
+        // height: 100px;
+        // width: 100px;
+    }
+
+}
